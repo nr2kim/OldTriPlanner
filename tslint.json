@@ -1,0 +1,36 @@
+{
+  "extends": [
+    "tslint:all"
+  ],
+  "rules": {
+    "max-classes-per-file": [true, 1, "exclude-class-expressions"],
+    "object-literal-sort-keys": [true, "ignore-case", "match-declaration-order", "shorthand-first"],
+    "newline-per-chained-call": false,
+    "no-magic-numbers": false,
+    "prefer-function-over-method": false,
+    "only-arrow-functions": [true, "allow-named-functions"],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast",
+      "check-preblock",
+      "check-rest-spread"
+    ],
+    "no-dynamic-delete": false,
+    "trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
+    "member-ordering": [true, {"order": "statics-first", "alphabetize": false}],
+    "no-any": false,
+    "typedef": false,
+    "no-this-assignment": false,
+    "no-redundant-jsdoc": false,
+    "no-console": false,
+    "quotemark": [true, "single", "avoid-escape"],
+    "variable-name": [true, "ban-keywords", "check-format", "allow-snake-case", "allow-leading-underscore"],
+    "indent": [true, "spaces", 2]
+  }
+}
