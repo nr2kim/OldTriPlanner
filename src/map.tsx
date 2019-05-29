@@ -12,21 +12,6 @@ export class Map extends React.Component <any, any> {
 
     }
 
-    public componentDidMount() {
-        // if (navigator.geolocation) {
-        //     navigator.geolocation.getCurrentPosition(function (position) {
-
-        //     });
-        //     // this.setState({
-        //     //     markerLat: position.coords.latitude,
-        //     //     markerLon: position.coords.longitude
-        //     // })
-        // } else {
-        //     // TODO:: get last location from database
-        //     // if (in database) { get it }
-        // }
-    }
-
     public getMarker(mlat: number, mlon: number) {
         return <Marker position={{ lat: mlat, lng: mlon }} />;
     }
