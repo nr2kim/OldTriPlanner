@@ -9,7 +9,7 @@
         "strict": false,
         "allowJs": false,
         "declaration": true,
-        "experimentalDecorators" : true
+        "experimentalDecorators" : true,
     },
     "allowSyntheticDefaultImports" : false,
     "include": [

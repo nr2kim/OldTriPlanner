@@ -9,8 +9,6 @@ import { Storage } from './storage'
 import '../css/style.css';
 
 class TriPlanner extends React.Component <any, any> {
-    // private end;
-
     private storage: Storage;
 
     public constructor(props) {
